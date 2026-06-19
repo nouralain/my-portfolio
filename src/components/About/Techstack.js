@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
-import C from "../../Assets/TechIcons/C++.svg";
+import { SiNextdotjs } from "react-icons/si";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import postgresql from "../../Assets/TechIcons/postgresql.svg";
 import auth from "../../Assets/TechIcons/auth.svg";
