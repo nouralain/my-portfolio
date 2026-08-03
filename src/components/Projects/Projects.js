@@ -8,14 +8,24 @@ import fluxcircle from "../../Assets/Projects/fluxcircle.png";
 import nutriplan from "../../Assets/Projects/nutriplan.png";
 import contacthub from "../../Assets/Projects/contacthub.png";
 import ux from "../../Assets/Projects/ux.png";
+import afaq from "../../Assets/Projects/afaq.png";
 
 function Projects() {
   const prjects =[
     {
+    imgPath:afaq,
+    isBlog:false,
+    title:"Afaq Group",
+    description:"A high-performance website built for an exhibition and event management company. Features dynamic Sanity CMS content management, deep-linked multi-tab service displays, and a secure contact system with Server Actions with Zod validation, Resend email dispatch and custom domain email integration and Google Analytics tracking.",
+    techStack:"Next.js, TypeScript, Sanity, Tailwind CSS, Shadcn",
+    demoLink:"https://www.afaqegypt.com/",
+    githubLink:""
+    },
+    {
     imgPath:inlight,
     isBlog:false,
     title:"In Light",
-    description:"A modern full-stack market research platform for In Light Consumer Insights — MENA's first proprietary online consumer panel, featuring ultra-fast data sync and dynamic schemas.",
+    description:"Engineered a production-grade market research platform powering MENA's first proprietary online consumer panel. Built from the ground up, the platform streamlines the complete lifecycle of consumer research, seamlessly connecting panelist onboarding, dynamic survey distribution, automated incentive tracking, and enterprise analytics.The architecture features four dedicated role-based portals for Admins, Clients, Consumer Respondents, and Medical Respondents, each equipped with tailored workflows and strict authentication access controls",
     techStack:"Next.js, TypeScript, Convex, Clerk, Tailwind CSS, Shadcn, Zod ",
     demoLink:"https://www.in-light.tech/",
     githubLink:""
