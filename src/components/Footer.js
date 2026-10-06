@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
- 
-  
+
+
 } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -26,33 +26,33 @@ function Footer() {
               <a
                 href="https://github.com/nouralain"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            
+
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/nour-el-ain-ahmed-22b545378"
+                href="https://www.linkedin.com/in/nour-el-ain-ayoub-22b545378"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
             <li className="social-icons">
-                           <a
-                             href="mailto:nourealainahmed1@gmail.com"
-                             style={{ color: "white" }}
-                             rel="noreferrer"
-                           
-                           >
-                             <BiLogoGmail />
-                           </a>
-                         </li>
+              <a
+                href="mailto:nourealainahmed1@gmail.com"
+                style={{ color: "white" }}
+                rel="noreferrer"
+
+              >
+                <BiLogoGmail />
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>

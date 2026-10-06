@@ -7,6 +7,7 @@ import cursor from "../../Assets/TechIcons/cursor.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import { SiSentry } from "react-icons/si";
 
 
 function Toolstack() {
@@ -34,8 +35,10 @@ function Toolstack() {
         <img src={Postman} alt="Postman" className="tech-icon-images" />
         <div className="tech-icons-text">Postman</div>
       </Col>
-
-    
+      <Col xs={4} md={2} className="tech-icons ">
+        <SiSentry className="tech-icon-images" />
+        <div className="tech-icons-text">Sentry</div>
+      </Col>
     </Row>
   );
 }

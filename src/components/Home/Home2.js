@@ -22,7 +22,7 @@ function Home2() {
   <i>
     <b className="purple">
       {" "}
-      JavaScript, TypeScript, React.js, and Next.js{" "}
+      JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB{" "}
     </b>
   </i>
   — leveraging the full-stack power of the framework to build seamless, end-to-end applications.
