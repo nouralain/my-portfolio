@@ -22,10 +22,10 @@ function Home2() {
   <i>
     <b className="purple">
       {" "}
-      JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB{" "}
+      JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, GraphQL, and Redis{" "}
     </b>
   </i>
-  — leveraging the full-stack power of the framework to build seamless, end-to-end applications.
+  — leveraging the full-stack power of these technologies to build seamless, end-to-end applications.
   <br />
   <br />
   My key areas of interest include optimizing state management and real-time data flow with 
@@ -39,13 +39,13 @@ function Home2() {
   <i>
     <b className="purple">
       {" "}
-      Tailwind CSS, shadcn/ui and bootstrap.{" "}
+      Tailwind CSS, shadcn/ui, and Bootstrap.{" "}
     </b>
   </i>
   <br />
   <br />
   Whenever possible, I love shipping fast, modern web applications, taking advantage of the 
-  <b className="purple"> Next.js App Router </b> to integrate robust authentication, dynamic database schemas, and seamless third-party APIs.
+  <b className="purple"> Next.js App Router </b> to integrate robust <b className="purple">OAuth2</b> authentication, dynamic database schemas, <b className="purple">Docker</b> containerization, reliable <b className="purple">CI/CD</b> pipelines, and testing with <b className="purple">Vitest</b>.
 </p>
           </Col>
           <Col md={4} className="myAvtar">
